@@ -1,0 +1,22 @@
+{
+  "name": "QRPopup",
+  "description": "Get QRcode for selection/page/image/link in a popup window.",
+  "version": "1.0",
+  "permissions": ["contextMenus","tabs"],
+  "icons": 
+  { 
+    "16": "icon_16.png",             
+    "48": "icon_48.png",            
+    "128": "icon_128.png" 
+  },  
+  "background": {
+    "scripts": ["script.js"]
+  },
+  "manifest_version": 2,
+  "browser_action":
+  {
+  "default_title": "Get QRcode for current URL",
+  "default_icon": "icon_19.png",
+  "default_popup": "popup.html"
+  }
+}
